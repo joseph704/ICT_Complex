@@ -25,3 +25,7 @@
 ### 3. 참고
 ------------------------------
  * Python Korean Handler : https://github.com/neotune/python-korean-handler
+
+### 4. 주의사항
+------------------------------
+ * iOS 프로젝트는 pod install를 실행해야 합니다.
