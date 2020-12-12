@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2309A77E2300CFC5002FAFE1 /* 아어.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2309A77B2300CA07002FAFE1 /* 아어.mp4 */; };
 		231B050C23BEFF6C00F01ECE /* 어어.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 231B050723BEFF6C00F01ECE /* 어어.MOV */; };
 		231B050D23BEFF6C00F01ECE /* 우우.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 231B050823BEFF6C00F01ECE /* 우우.MOV */; };
 		231B050E23BEFF6C00F01ECE /* 이이.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 231B050923BEFF6C00F01ECE /* 이이.MOV */; };
 		231B050F23BEFF6C00F01ECE /* 사과.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 231B050A23BEFF6C00F01ECE /* 사과.MOV */; };
 		231B051023BEFF6C00F01ECE /* 아아.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 231B050B23BEFF6C00F01ECE /* 아아.MOV */; };
 		231B051223BF008B00F01ECE /* 썸네일.png in Resources */ = {isa = PBXBuildFile; fileRef = 231B051123BF008B00F01ECE /* 썸네일.png */; };
+		2355803E257E1FC400AEC95F /* WordSelectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2355803D257E1FC400AEC95F /* WordSelectCollectionViewCell.swift */; };
+		2386254423B48DE8006CBBFD /* 아어썸네일2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2386254323B48DE8006CBBFD /* 아어썸네일2.png */; };
+		2386254623B492BF006CBBFD /* 아어썸네일3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2386254523B492BF006CBBFD /* 아어썸네일3.png */; };
+		23997260257D1AAF00643BFD /* WordSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2399725F257D1AAF00643BFD /* WordSelectViewController.swift */; };
+		2399726D257D1F6500643BFD /* WordProcessSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2399726C257D1F6500643BFD /* WordProcessSelectViewController.swift */; };
 		23997275257D267800643BFD /* 클릭이미지.png in Resources */ = {isa = PBXBuildFile; fileRef = 23997274257D267700643BFD /* 클릭이미지.png */; };
+		23997278257D2A2D00643BFD /* WordProcessTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23997277257D2A2D00643BFD /* WordProcessTableViewCell.swift */; };
 		7C55E083225BAF040003B099 /* 또바기.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C55E082225BAF040003B099 /* 또바기.png */; };
 		7C67F20222649817006A66F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C67F20122649817006A66F4 /* LaunchScreen.storyboard */; };
 		7C683FBA225D95FD004F2572 /* 그림1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C683FB9225D95FD004F2572 /* 그림1.png */; };
@@ -27,13 +34,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2309A77B2300CA07002FAFE1 /* 아어.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "아어.mp4"; path = "Correctable-Pronunciation/Resources/아어.mp4"; sourceTree = SOURCE_ROOT; };
 		231B050723BEFF6C00F01ECE /* 어어.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "어어.MOV"; path = "Correctable-Pronunciation/Resources/어어.MOV"; sourceTree = SOURCE_ROOT; };
 		231B050823BEFF6C00F01ECE /* 우우.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "우우.MOV"; path = "Correctable-Pronunciation/Resources/우우.MOV"; sourceTree = SOURCE_ROOT; };
 		231B050923BEFF6C00F01ECE /* 이이.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "이이.MOV"; path = "Correctable-Pronunciation/Resources/이이.MOV"; sourceTree = SOURCE_ROOT; };
 		231B050A23BEFF6C00F01ECE /* 사과.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "사과.MOV"; path = "Correctable-Pronunciation/Resources/사과.MOV"; sourceTree = SOURCE_ROOT; };
 		231B050B23BEFF6C00F01ECE /* 아아.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "아아.MOV"; path = "Correctable-Pronunciation/Resources/아아.MOV"; sourceTree = SOURCE_ROOT; };
 		231B051123BF008B00F01ECE /* 썸네일.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "썸네일.png"; path = "Correctable-Pronunciation/Resources/썸네일.png"; sourceTree = SOURCE_ROOT; };
+		2355803D257E1FC400AEC95F /* WordSelectCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSelectCollectionViewCell.swift; sourceTree = "<group>"; };
+		2386254323B48DE8006CBBFD /* 아어썸네일2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "아어썸네일2.png"; path = "Correctable-Pronunciation/Resources/아어썸네일2.png"; sourceTree = SOURCE_ROOT; };
+		2386254523B492BF006CBBFD /* 아어썸네일3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "아어썸네일3.png"; path = "Correctable-Pronunciation/Resources/아어썸네일3.png"; sourceTree = SOURCE_ROOT; };
+		2399725F257D1AAF00643BFD /* WordSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSelectViewController.swift; sourceTree = "<group>"; };
+		2399726C257D1F6500643BFD /* WordProcessSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordProcessSelectViewController.swift; sourceTree = "<group>"; };
 		23997274257D267700643BFD /* 클릭이미지.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "클릭이미지.png"; sourceTree = "<group>"; };
+		23997277257D2A2D00643BFD /* WordProcessTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordProcessTableViewCell.swift; sourceTree = "<group>"; };
 		694986CF07DF33783E03593C /* Pods-Correctable-Pronunciation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Correctable-Pronunciation.debug.xcconfig"; path = "Target Support Files/Pods-Correctable-Pronunciation/Pods-Correctable-Pronunciation.debug.xcconfig"; sourceTree = "<group>"; };
 		77E5CC2E26A206FFE48F8988 /* Pods-Correctable-Pronunciation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Correctable-Pronunciation.release.xcconfig"; path = "Target Support Files/Pods-Correctable-Pronunciation/Pods-Correctable-Pronunciation.release.xcconfig"; sourceTree = "<group>"; };
 		7C55E082225BAF040003B099 /* 또바기.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "또바기.png"; sourceTree = "<group>"; };
@@ -66,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				23997274257D267700643BFD /* 클릭이미지.png */,
+				2309A77B2300CA07002FAFE1 /* 아어.mp4 */,
 				231B050A23BEFF6C00F01ECE /* 사과.MOV */,
 				231B050B23BEFF6C00F01ECE /* 아아.MOV */,
 				231B051123BF008B00F01ECE /* 썸네일.png */,
@@ -74,6 +89,8 @@
 				231B050923BEFF6C00F01ECE /* 이이.MOV */,
 				7C55E082225BAF040003B099 /* 또바기.png */,
 				7C683FB9225D95FD004F2572 /* 그림1.png */,
+				2386254323B48DE8006CBBFD /* 아어썸네일2.png */,
+				2386254523B492BF006CBBFD /* 아어썸네일3.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -95,6 +112,8 @@
 		23A48AB3256900D5000061AB /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				23D2756C257F824E0056D938 /* WordProcessSelection */,
+				23D2756E257F82870056D938 /* WordSelection */,
 				7C8E54BB2241862B001F52C8 /* HomeController.swift */,
 				7CA83A0622416F0600F9AC8A /* ViewController.swift */,
 			);
@@ -113,6 +132,24 @@
 			children = (
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		23D2756C257F824E0056D938 /* WordProcessSelection */ = {
+			isa = PBXGroup;
+			children = (
+				23997277257D2A2D00643BFD /* WordProcessTableViewCell.swift */,
+				2399726C257D1F6500643BFD /* WordProcessSelectViewController.swift */,
+			);
+			path = WordProcessSelection;
+			sourceTree = "<group>";
+		};
+		23D2756E257F82870056D938 /* WordSelection */ = {
+			isa = PBXGroup;
+			children = (
+				2355803D257E1FC400AEC95F /* WordSelectCollectionViewCell.swift */,
+				2399725F257D1AAF00643BFD /* WordSelectViewController.swift */,
+			);
+			path = WordSelection;
 			sourceTree = "<group>";
 		};
 		7CA839F822416F0600F9AC8A = {
@@ -233,13 +270,16 @@
 				7C683FBA225D95FD004F2572 /* 그림1.png in Resources */,
 				23997275257D267800643BFD /* 클릭이미지.png in Resources */,
 				231B050F23BEFF6C00F01ECE /* 사과.MOV in Resources */,
+				2386254423B48DE8006CBBFD /* 아어썸네일2.png in Resources */,
 				7C55E083225BAF040003B099 /* 또바기.png in Resources */,
 				7C8E54B622417AF8001F52C8 /* GoogleService-Info.plist in Resources */,
 				231B050C23BEFF6C00F01ECE /* 어어.MOV in Resources */,
+				2386254623B492BF006CBBFD /* 아어썸네일3.png in Resources */,
 				231B051223BF008B00F01ECE /* 썸네일.png in Resources */,
 				231B050D23BEFF6C00F01ECE /* 우우.MOV in Resources */,
 				7C67F20222649817006A66F4 /* LaunchScreen.storyboard in Resources */,
 				231B051023BEFF6C00F01ECE /* 아아.MOV in Resources */,
+				2309A77E2300CFC5002FAFE1 /* 아어.mp4 in Resources */,
 				7CA83A0C22416F0700F9AC8A /* Assets.xcassets in Resources */,
 				7CA83A0A22416F0600F9AC8A /* Main.storyboard in Resources */,
 			);
@@ -294,8 +334,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2399726D257D1F6500643BFD /* WordProcessSelectViewController.swift in Sources */,
 				7CA83A0722416F0600F9AC8A /* ViewController.swift in Sources */,
 				7CA83A0522416F0600F9AC8A /* AppDelegate.swift in Sources */,
+				23997260257D1AAF00643BFD /* WordSelectViewController.swift in Sources */,
+				23997278257D2A2D00643BFD /* WordProcessTableViewCell.swift in Sources */,
+				2355803E257E1FC400AEC95F /* WordSelectCollectionViewCell.swift in Sources */,
 				7C8E54BC2241862B001F52C8 /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
