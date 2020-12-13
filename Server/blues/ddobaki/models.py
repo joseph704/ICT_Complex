@@ -16,6 +16,7 @@ class get_ddobaki(models.Model):
     label = models.CharField(max_length=50)
     stt = models.CharField(max_length=50)
     current_time = models.DateTimeField(auto_now_add=True)
+    divided_label = models.CharField(max_length=100, blank=True)
     divided_stt = models.CharField(max_length=100, blank=True)
     accuracy = models.IntegerField(default=0)
     color = models.CharField(max_length=100, null=True)

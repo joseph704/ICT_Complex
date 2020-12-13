@@ -68,6 +68,7 @@ import json
 
 
 class get_ddobaki_Serializer(serializers.ModelSerializer):
+    divided_label = serializers.SerializerMethodField()
     divided_stt = serializers.SerializerMethodField()
     color = serializers.SerializerMethodField()
     accuracy = serializers.SerializerMethodField()
@@ -82,11 +83,18 @@ class get_ddobaki_Serializer(serializers.ModelSerializer):
 
     class Meta:
         model = get_ddobaki
-        fields = ('id', 'user', 'label', 'stt', 'current_time', 'divided_stt' ,'accuracy', 'color')
+        fields = ('id', 'user', 'label', 'stt', 'current_time', 'divided_label', 'divided_stt' ,'accuracy', 'color')
     #        dtt = Meta.fields[2]
     #        dtt = Korean_handler.convert(dtt)
     #        print(dtt)
     #
+
+    def get_divided_label(self, obj):
+       dlbl = obj.label
+       dlbl = Korean_handler_all.divide(dlbl)
+       dlbl = "".join(dlbl.split())
+       return (dlbl)
+
     def get_divided_stt(self, obj):
         dtt = obj.stt
         dtt = Korean_handler_all.divide(dtt)

@@ -23,6 +23,6 @@ from .models import get_ddobaki
 #        allData = None
 #    return render(request, 'ddobaki/index.html', context)
 
-def Insert_get_ddobaki(request, divided_stt, accuracy, color):
-    get_ddobaki(divided_stt = divided_stt, accuracy = accuracy, color = color).save()
+def Insert_get_ddobaki(request, divided_label, divided_stt, accuracy, color):
+    get_ddobaki(divided_label = divided_label, divided_stt = divided_stt, accuracy = accuracy, color = color).save()
     return render(request, 'ddobaki/mypage.html')
