@@ -2707,3 +2707,28 @@ Not Found: /client_area/
 [14/Dec/2020 06:19:39] "GET /client_area/ HTTP/1.1" 404 2190
 Not Found: /stalker_portal/c/
 [14/Dec/2020 06:19:40] "GET /stalker_portal/c/ HTTP/1.1" 404 2205
+Not Found: /
+[14/Dec/2020 06:55:54] "GET / HTTP/1.0" 404 2173
+[14/Dec/2020 07:55:16] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[14/Dec/2020 07:55:16] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /
+[14/Dec/2020 08:06:35] "GET / HTTP/1.0" 404 2173
+[14/Dec/2020 08:14:22] "GET /api/vi/ddobakis/ HTTP/1.1" 200 111638
+[14/Dec/2020 08:14:22] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+[14/Dec/2020 08:14:22] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+[14/Dec/2020 08:14:22] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+[14/Dec/2020 08:14:22] "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+[14/Dec/2020 08:14:22] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[14/Dec/2020 08:14:22] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[14/Dec/2020 08:14:22] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[14/Dec/2020 08:14:22] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[14/Dec/2020 08:14:22] "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[14/Dec/2020 08:14:22] "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+[14/Dec/2020 08:14:22] "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[14/Dec/2020 08:14:23] "GET /favicon.ico HTTP/1.1" 404 2228
+[14/Dec/2020 08:14:57] "POST /api/vi/ddobakis/ HTTP/1.1" 201 9644
+[14/Dec/2020 08:15:03] "POST /api/vi/ddobakis/ HTTP/1.1" 201 9644
+[14/Dec/2020 08:15:06] "GET /api/vi/ddobakis/ HTTP/1.1" 200 112648
+Watching for file changes with StatReloader
+[14/Dec/2020 08:24:52] "GET /api/vi/ddobakis/ HTTP/1.1" 200 112661

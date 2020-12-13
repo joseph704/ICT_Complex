@@ -71,8 +71,8 @@ def compare_string(label_list, stt_list) :
     # stt = dict(zip(range(len(stt)), stt))
     # label_list = [['ㅁ', 'ㅏ', 'ㄴ'], ['ㅈ', 'ㅏ', ''], ['ㄹ', 'ㅡ', 'ㄴ']]
     # stt_list = [['ㅁ', 'ㅣ', 'ㄴ'], ['ㅈ', 'ㅏ', ''], ['ㄹ', 'ㅡ', '']]
-    
-    color_list = [['0' for _ in range(3)] for _ in range(len(stt_list))]
+    color_len = len(stt_list) if len(stt_list) > len(label_list) else len(label_list) 
+    color_list = [['0' for _ in range(3)] for _ in range(color_len)]
     num1 = 0
     num2 = 0
     color = ''
@@ -161,9 +161,11 @@ def convert(label, stt):
     return color
 
 def get_accuracy(label_list, stt_list):
-    color_list = [['0' for _ in range(3)] for _ in range(len(stt_list))]
+    color_len = len(stt_list)if len(stt_list) > len(label_list) else len(label_list)
+    color_list = [['0' for _ in range(3)] for _ in range(color_len)]
     num1 = 0
     num2 = 0
+    color = ''
         
     for i in stt_list :
         for j in i :
