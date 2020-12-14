@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import re
-import compare2
+import compare
 
 # 유니코드 한글 시작 : 44032, 끝 : 55199
 BASE_CODE, CHOSUNG, JUNGSUNG = 44032, 588, 28
