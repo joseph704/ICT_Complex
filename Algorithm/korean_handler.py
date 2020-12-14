@@ -63,7 +63,7 @@ def convert(label, stt):
 
     print(label_list)
     print(stt_list)
-    compare2.compare_string(label_list,stt_list)
+    compare.compare_string(label_list,stt_list)
 
 # __name__ 변수를 통해 현재 스크립트 파일이 시작점인지 모듈인지 판단
 # korean_handler.py 파일은 main 프로그램으로 사용
