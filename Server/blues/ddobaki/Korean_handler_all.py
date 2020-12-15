@@ -55,7 +55,7 @@ def divide(test_keyword):
                 #print('중성 : {}'.format(JUNGSUNG_LIST[char2]))
                 char3 = int((char_code - (CHOSUNG * char1) - (JUNGSUNG * char2)))
                 if char3==0:
-                    result.append(' ')
+                    result.append('-')
                 else:
                     result.append(JONGSUNG_LIST[char3])
                 #print('종성 : {}'.format(JONGSUNG_LIST[char3]))
@@ -80,7 +80,8 @@ def compare_string(label_list, stt_list) :
     for i in stt_list :
         for j in i :
             if j in label_list[num1][num2] :
-                color_list[num1][num2] = '1'
+                    color_list[num1][num2] ='1'
+            
             num2 = num2 + 1
         num1 = num1 + 1
                                         
@@ -123,7 +124,7 @@ def convert(label, stt):
             #print('중성 : {}'.format(JUNGSUNG_LIST[char2]))
             char3 = int((char_code - (CHOSUNG * char1) - (JUNGSUNG * char2)))
             if char3==0:
-                result.append(' ')
+                result.append('-')
             else:
                 result.append(JONGSUNG_LIST[char3])
         #print('종성 : {}'.format(JONGSUNG_LIST[char3]))
@@ -139,6 +140,8 @@ def convert(label, stt):
             char_code = ord(keyword) - BASE_CODE
             if char_code < 0 :
                 result.append(keyword)
+                result.append('-')
+                result.append('-')
             else :
                 char1 = int(char_code / CHOSUNG)
                 result.append(CHOSUNG_LIST[char1])
@@ -148,7 +151,7 @@ def convert(label, stt):
                 #print('중성 : {}'.format(JUNGSUNG_LIST[char2]))
                 char3 = int((char_code - (CHOSUNG * char1) - (JUNGSUNG * char2)))
                 if char3==0:
-                    result.append(' ')
+                    result.append('-')
                 else:
                     result.append(JONGSUNG_LIST[char3])
         #print('종성 : {}'.format(JONGSUNG_LIST[char3]))

