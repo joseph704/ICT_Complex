@@ -8,7 +8,8 @@ def compare_string(label_list, stt_list) :
 	for i in stt_list :
 		for j in i :
 			if j in label_list[num1][num2] :
-				color_list[num1][num2] = '1'
+				if j != '-' :
+					color_list[num1][num2] = '1'
 			num2 = num2 + 1
 		num1 = num1 + 1
 
