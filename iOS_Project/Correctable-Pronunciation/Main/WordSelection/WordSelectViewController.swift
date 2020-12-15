@@ -23,7 +23,6 @@ class WordSelectViewController: UIViewController, UICollectionViewDelegate, UICo
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return wordArr.count
     }
-    
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "wordSelectCell", for: indexPath) as? WordSelectCollectionViewCell else {
             return UICollectionViewCell()
@@ -42,5 +41,18 @@ class WordSelectViewController: UIViewController, UICollectionViewDelegate, UICo
         self.collectionView.collectionViewLayout = flowLayout
         self.view.layoutIfNeeded()
     }
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let indexPath = collectionView.indexPathsForSelectedItems else { return }
+        guard let meanLessVC = segue.destination as? MeanLessViewController else { return }
+        switch segue.identifier {
+        case "oneWord":
+            meanLessVC.wordArr.append(wordArr[indexPath[0].item] ?? "")
+            meanLessVC.currentIndex = 0
+        case "allWord":
+            meanLessVC.wordArr.append(contentsOf: wordArr)
+            meanLessVC.currentIndex = wordArr.count - 1
+        default:
+            return
+        }
+    }
 }
