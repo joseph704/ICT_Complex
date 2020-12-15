@@ -1,6 +1,6 @@
 //
 //  HomeController.swift
-//  Test3
+//  Correctable-Pronunciation
 //
 //  Created by 차요셉 on 2020. 12. 10..
 //  Copyright © 2020년 차요셉. All rights reserved.
@@ -17,25 +17,4 @@ class HomeController: UIViewController {
         userlabel.text = "\(email)님"
         // Do any additional setup after loading the view.
     }
-
-    @IBAction func LogOut(_ sender: Any) {
-        let firebaseAuth = Auth.auth()
-        do {
-            try firebaseAuth.signOut()
-        } catch let signOutError as NSError {
-            print ("Error signing out: %@", signOutError)
-        }
-        dismiss(animated: true, completion: nil)
-    }
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
