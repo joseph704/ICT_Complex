@@ -31,7 +31,7 @@ def convert(label, stt):
             result.append(JUNGSUNG_LIST[char2])
             char3 = int((char_code - (CHOSUNG * char1) - (JUNGSUNG * char2)))
             if char3==0:
-                result.append(' ')
+                result.append('-')
             else:
                 result.append(JONGSUNG_LIST[char3])
         else:
@@ -46,6 +46,8 @@ def convert(label, stt):
             char_code = ord(keyword) - BASE_CODE
             if char_code < 0 :
                 result.append(keyword)
+                result.append('-')
+                result.append('-')
             else :
                 char1 = int(char_code / CHOSUNG)
                 result.append(CHOSUNG_LIST[char1])
@@ -53,7 +55,7 @@ def convert(label, stt):
                 result.append(JUNGSUNG_LIST[char2])
                 char3 = int((char_code - (CHOSUNG * char1) - (JUNGSUNG * char2)))
                 if char3==0:
-                    result.append(' ')
+                    result.append('-')
                 else:
                     result.append(JONGSUNG_LIST[char3])
         else:
